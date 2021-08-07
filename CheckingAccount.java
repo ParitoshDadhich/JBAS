@@ -36,7 +36,7 @@ public class CheckingAccount extends Account {
 
             // Apply Transaction Fee
             balance -= FEE;
-            System.out.printf("Fee %.2f Applied%n", FEE);
+            System.out.printf("Fee %.2f applied%n", FEE);
             System.out.printf("Current Balance is: %.2f%n", balance);
             
         } else {
